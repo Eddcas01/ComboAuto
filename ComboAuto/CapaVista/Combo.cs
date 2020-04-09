@@ -57,7 +57,7 @@ namespace CapaVista
             foreach (DataRow row in dt2.Rows)
             {
 
-                coleccion.Add(Convert.ToString(row["nombre"]));
+                coleccion.Add(Convert.ToString(row[campo]));
 
             }
 
