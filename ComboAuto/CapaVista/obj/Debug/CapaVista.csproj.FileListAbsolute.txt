@@ -11,3 +11,4 @@ C:\Users\edgar\source\repos\ComboAuto\CapaVista\obj\Debug\CapaVista.Combo.resour
 C:\Users\edgar\source\repos\ComboAuto\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
 C:\Users\edgar\source\repos\ComboAuto\CapaVista\bin\Debug\CapaControlador.dll
 C:\Users\edgar\source\repos\ComboAuto\CapaVista\bin\Debug\CapaControlador.pdb
+C:\Users\edgar\source\repos\ComboAuto\CapaVista\bin\Debug\CapaVista.dll.config
