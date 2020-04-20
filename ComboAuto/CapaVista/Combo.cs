@@ -76,6 +76,17 @@ namespace CapaVista
         }
 
 
+      
+
+        public string obtener() {
+            string ob = "";
+            ob = Cmb_auto.Text;
+
+            return ob;
+
+        }
+
+
         public string obtenerU() {
 
             string ob = "";
@@ -105,6 +116,44 @@ namespace CapaVista
 
 
             return ob;
+
+        }
+
+
+        public string ObtenerIndif()
+        {
+
+            string iddef;
+            string obp = obtenerP();
+
+
+            char al = char.Parse(obp);
+
+            if (char.IsLetter(al))
+            {
+                string cosa = obtener();
+
+                char[] delimitador = { '-' };
+                int i = 0;
+                string[] partes = cosa.Split(delimitador);
+
+                string id = partes[1] + "-" + partes[0];
+
+                iddef= id;
+            }
+
+            else
+            {
+
+                string completo = obtener();
+
+                iddef = completo;
+
+            }
+
+            return iddef;
+
+
 
         }
 

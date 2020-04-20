@@ -25,7 +25,7 @@ namespace CapaControlador
             string[] Campos = new string[300];
             string[] auto = new string[300];
             int i = 0;
-            string sql = "SELECT " + campo1 + "," +campo2+ " FROM " + tabla + " ;";
+            string sql = "SELECT " + campo1 + "," +campo2+ " FROM " + tabla + " where estado = 1 ;";
 
             try
             {
