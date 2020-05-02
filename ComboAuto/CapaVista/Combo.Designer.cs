@@ -47,6 +47,7 @@
             this.Cmb_auto.Size = new System.Drawing.Size(337, 24);
             this.Cmb_auto.Sorted = true;
             this.Cmb_auto.TabIndex = 0;
+            this.Cmb_auto.SelectedIndexChanged += new System.EventHandler(this.Cmb_auto_SelectedIndexChanged);
             // 
             // dataSet1
             // 

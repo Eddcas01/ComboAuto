@@ -34,6 +34,23 @@ namespace CapaModelo
             return dt1;
         }
 
-        
+        public string[] items2(string tabla, string campo1, string campo2, string condicion2, string valorcon)
+        {
+            string[] Items = sn.llenarCmb2(tabla, campo1, campo2, condicion2, valorcon);
+
+            return Items;
+
+
+        }
+
+        public DataTable enviar2(string tabla, string campo1, string campo2, string condicion2, string valorcon)
+        {
+
+
+
+            var dt1 = sn.obtener2(tabla, campo1, campo2, condicion2,valorcon);
+
+            return dt1;
+        }
     }
 }
