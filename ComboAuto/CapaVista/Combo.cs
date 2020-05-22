@@ -226,7 +226,7 @@ namespace CapaVista
                 int i = 0;
                 string[] partes = cosa.Split(delimitador);
 
-                string id = partes[1] + "-" + partes[0];
+                string id = partes[1];
 
                 iddef= id;
             }
@@ -234,9 +234,15 @@ namespace CapaVista
             else
             {
 
-                string completo = obtener();
+                string cosa = obtener();
 
-                iddef = completo;
+                char[] delimitador = { '-' };
+                int i = 0;
+                string[] partes = cosa.Split(delimitador);
+
+                string id = partes[0];
+
+                iddef = id;
 
             }
 
